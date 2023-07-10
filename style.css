@@ -1,0 +1,368 @@
+/* fontes*/
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  p {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+nav {
+    background-color: rgb(120, 182, 120);
+    font-family: sans-serif
+    
+}
+nav ul {
+    color: black;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+}
+nav li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+nav li a:hover {
+    background-color: #228B22;
+}
+
+.destaque {
+    background-color: #f9f9f9;
+    padding: 40px;
+  }
+  
+  .destaque h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .produtos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .produto {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .produto img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .produto h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .produto p {
+    margin-bottom: 20px;
+  }
+  .produto a:hover {
+    background-color: #a14f4f;
+
+  }
+  
+  .produto a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #b87878;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  /* Depoimentos*/
+  .depoimentos {
+  background-color: #f2f2f2;
+  padding: 40px;
+}
+
+.depoimentos h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.depoimento {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.depoimento img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.depoimento h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.depoimento p {
+  margin-bottom: 0;
+}
+
+/*promocoes*/
+.promocoes {
+  background-color: #f2f2f2;
+  padding: 40px;
+}
+
+.promocoes h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.promocao {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.promocao img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.promocao h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.promocao p {
+  margin-bottom: 10px;
+}
+
+.promocao a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #b87878;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.promocao a:hover {
+  background-color: #8c4747;
+}
+/*formulario final*/
+.contato {
+    background-color: #f6f6f6;
+    padding: 40px;
+  }
+  
+  .contato h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px
+  }
+  
+  .contato p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .informacoes-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .formulario-contato input,
+  .formulario-contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .formulario-contato textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+  .formulario-contato button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #b87878;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .formulario-contato button:hover {
+    background-color: #8c4747;
+  }
+  
+
+  /*pagina cestas*/
+  /* Estilos para a seção de cestas */
+.cestas {
+  background-color: #f9f9f9;
+  padding: 40px;
+}
+
+.cestas h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cestas-lista {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cesta-item {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.cesta-item img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.cesta-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.cesta-item p {
+  margin-bottom: 20px;
+}
+
+.cesta-item a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #b87878;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cesta-item a:hover {
+  background-color: #8c4747;
+}
+
+/* Estilos para o rodapé */
+.footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #777;
+}
+
+.footer-links a:hover {
+  color: #333;
+}
+
+/* whaassp botao*/
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  display: none;
+  cursor: pointer;
+}
+
+.whatsapp-button img {
+  width: 60px;
+  height: 60px;
+}
+
+.show-whatsapp-button {
+  display: block;
+}
+/*menu hamburguer*/
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-toggle__bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: #000;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav ul.active {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav li {
+    text-align: center;
+    margin: 10px 0;
+  }
+}

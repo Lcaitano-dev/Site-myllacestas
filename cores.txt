@@ -1,0 +1,17 @@
+cores site 
+
+Cores Análogas:
+
+RGB(92, 120, 182): Uma variação mais suave da cor base, com um tom de azul acinzentado.
+RGB(120, 157, 182): Uma variação mais suave da cor base, com um tom de azul esverdeado.
+Cores Complementares:
+
+RGB(182, 120, 120): Um tom de rosa avermelhado que cria um contraste interessante com a cor base.
+RGB(182, 155, 120): Um tom de laranja dourado que também proporciona um contraste agradável.
+Cores Neutras:
+
+RGB(238, 238, 238): Um tom de cinza claro que pode ser usado para fundos ou elementos textuais.
+RGB(51, 51, 51): Um tom de cinza escuro que pode ser usado para detalhes ou textos mais destacados.
+
+
+#b87878   nav
